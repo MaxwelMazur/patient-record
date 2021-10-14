@@ -1,0 +1,13 @@
+-GET /patients
+
+-GET /patients/ID
+404
+{"error": "patient does not exist"}
+
+-POST /patients
+
+-PUT /patients/ID
+
+-DELETE /patients/ID
+
+FRONTEND -> API GATEWAY -> LAMBDAS
